@@ -56,8 +56,13 @@
   width: 90%;
 }
 
+.form{
+  width: 90%;
+}
+
 .form-group {
   margin-bottom: 15px;
+  width: 90%;
 }
 
 .form-group label {
@@ -68,6 +73,9 @@
 
 .form-group input {
   background-color: rgb(223, 222, 222);
+}
+.headerMobile{
+  display: none;
 }
 
 .form-group input,
@@ -193,6 +201,16 @@
   text-align: center;
   padding: 5px;
   border-radius: 10px;
+}
+.modalTitle{
+  color: green;
+  font-size: 20px;
+  text-align: center;
+}
+.iconModal{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @media screen and (max-width: 768px){
